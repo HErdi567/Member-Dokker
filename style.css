@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .profile-card {
+    background-color: white;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .profile-card img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .name {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .description {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+  }
+  
